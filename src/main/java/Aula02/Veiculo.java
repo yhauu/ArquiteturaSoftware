@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Aula02;
 
-/**
- *
- * @author fabricio.vbelomo
- */
-public class Veiculo {
-    
+public abstract class Veiculo {
+
+    public abstract void acelerar();
+
+    public void painel() {
+        System.out.println("Exibindo informações");
+    }
 }
