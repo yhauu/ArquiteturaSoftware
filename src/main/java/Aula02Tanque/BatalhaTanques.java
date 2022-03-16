@@ -9,7 +9,7 @@ public class BatalhaTanques {
         tanque.setCorCanhao(CoresRGB.GREEN);
         tanque.setX(23.3F);
         tanque.setY(3.2F);
-        
+
         System.out.println("Tanque: " + tanque.getCorTanque());
         System.out.println("Canhão: " + tanque.getCorCanhao());
         System.out.println("Posição x: " + tanque.getX());
